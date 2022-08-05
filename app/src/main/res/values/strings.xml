@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TaskAppV2</string>
+    <string name="tick_box_msg">Example Task shown here.</string>
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.example.taskappv2.login.MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="0dp"
+
+        android:layout_marginEnd="0dp"
+        android:src="@drawable/ic_baseline_assignment_blue"
+
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="28dp"
+        android:layout_toRightOf="@+id/logo"
+        android:fontFamily="@font/nunito_sans_semibold"
+        android:gravity="center"
+        android:text="Task App"
+        android:textColor="#000"
+        android:textSize="40sp" />
+
+
+    <EditText
+        android:id="@+id/txtUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="32dp"
+        android:ems="10"
+        android:hint="Username"
+        android:singleLine="true"/>
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_below="@id/txtUsername"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtPassword"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:background="@color/colorPrimary"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnLogin"
+        android:layout_alignParentStart="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="159dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="7dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white" />
+</RelativeLayout>
