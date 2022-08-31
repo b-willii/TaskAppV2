@@ -1,3 +1,14 @@
+/***************************************************************************************
+ *    References:
+ *
+ *    Title: Android-Notes-Memos-Application source code
+ *    Author: moustafa-dimashkieh
+ *    Date: 2021
+ *    Code version: 1.0
+ *    Availability: https://github.com/moustafa-dimashkieh/Android-Notes-Memos-Application
+ *
+ ***************************************************************************************/
+
 package com.example.taskappv2;
 
 import androidx.appcompat.app.AppCompatActivity;
