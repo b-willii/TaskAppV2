@@ -1,3 +1,14 @@
+/***************************************************************************************
+ *    References:
+ *
+ *    Title: Easy Splash Screen - Android Studio Tutorial
+ *    Author: Coding in Flow
+ *    Date: 2017
+ *    Code version: 1.0
+ *    Availability: https://www.youtube.com/watch?v=gt1WYT0Qpfk
+ *
+ ***************************************************************************************/
+
 package com.example.taskappv2;
 
 import android.content.Intent;
